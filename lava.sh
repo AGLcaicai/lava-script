@@ -209,7 +209,7 @@ echo && echo -e " ${Red_font_prefix}Lava Network 一键脚本${Font_color_suffix
  ${Green_font_prefix} 13.更新 Lavad 节点程序 ${Font_color_suffix}
 
  ———————————————————————" && echo
-read -e -p " 请输入数字 [1-6]:" num
+read -e -p " 请输入数字 [1-13]:" num
 case "$num" in
 1)
     install_evn
