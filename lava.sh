@@ -101,7 +101,7 @@ sync_lavad(){
 
 create_lavad(){
     read -p " 请输入钱包名字:" name
-    lavad keys add ${name} --keyring-backend "${name}"
+    lavad keys add ${name}
     lavad tendermint show-validator
     echo "请保存好如上信息，包括钱包助记词，可以导入Keplr钱包"
 }
